@@ -3,7 +3,9 @@
 #### 介绍
 一个将 Markdown 解析为 HTML 的.NET类库
 
-#### 用法
+#### 用法  
+
+[NuGet](https://www.nuget.org/packages/MarkSharp)
 
 ```
 using MarkSharp;

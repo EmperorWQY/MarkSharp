@@ -3,7 +3,8 @@
 #### Introduction
 Parse Markdown to HTML for .NET
 
-#### Usage
+#### Usage  
+[NuGet](https://www.nuget.org/packages/MarkSharp)
 
 ```
 using MarkSharp;
