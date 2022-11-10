@@ -5,6 +5,10 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>MarkSharp</Title>
+    <Authors>武清云</Authors>
+    <PackageProjectUrl></PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
