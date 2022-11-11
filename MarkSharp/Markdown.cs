@@ -272,5 +272,10 @@ namespace MarkSharp
             Transform();
             return sb.ToString();
         }
+
+        public MarkdownNode GetSyntaxTree()
+        {
+            return root;
+        }
     }
 }

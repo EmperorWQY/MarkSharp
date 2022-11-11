@@ -8,7 +8,13 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>MarkSharp</Title>
     <Authors>武清云</Authors>
-    <PackageProjectUrl></PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/EmperorWQY/MarkSharp</PackageProjectUrl>
+    <Description>Parse Markdown to HTML for .NET</Description>
+    <RepositoryUrl>https://github.com/EmperorWQY/MarkSharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>md,Markdown,html,parse</PackageTags>
+    <Version>1.0.2</Version>
+    <PackageReleaseNotes>Optimize code and opened more interfaces</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
