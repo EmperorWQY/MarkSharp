@@ -102,28 +102,15 @@ namespace MarkSharp
             sb.Append(HTMLTag.BeginTag[(int)root.Type]);
 
             if (root.Type == MarkdownNodeType.Link)
-            {
-                sb.Append("<a href=\"");
-                sb.Append(root.Uri);
-                sb.Append("\">");
-                sb.Append(root.Content);
-                sb.Append("</a>");
-            }
+                sb.Append($"<a href=\"{root.Uri}\">{root.Content}</a>");
+
             else if (root.Type == MarkdownNodeType.Image)
-            {
-                sb.Append("<img src=\"");
-                sb.Append(root.Uri);
-                sb.Append("\" alt=\"");
-                sb.Append(root.Content);
-                sb.Append("\"/>");
-            }
+                sb.Append($"<img src=\"{root.Uri}\" alt=\"{root.Content}\"/>");
+
             else
                 sb.Append(root.Content);
 
-            root.Children.ForEach((item) =>
-            {
-                DFS(item);
-            });
+            root.Children.ForEach((item) => DFS(item));
 
             sb.Append(HTMLTag.EndTag[(int)root.Type]);
         }
